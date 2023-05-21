@@ -36,7 +36,6 @@ img {
     box-shadow: 10px 5px 5px #05b1b1;
     border-radius: 4px;
     margin: auto;
-    margin-bottom: 100px;
 }
 
 @media screen {
@@ -49,6 +48,9 @@ img {
     }
     .my_achievements { font-size: 3em;
         font-family: sans-serif;}
+    img {
+        margin-bottom: 80px;
+    }
   }
   @media screen and (max-width: 1024px) {
     header {
@@ -60,6 +62,9 @@ img {
     }
     .my_achievements { font-size: 2.5em;
         font-family: sans-serif;}
+    img {
+        margin-bottom: 65px;
+    }
   }
   @media screen and (max-width: 800px) {
     header {
@@ -71,6 +76,9 @@ img {
     }
     .my_achievements { font-size: 2em;
         font-family: sans-serif;}
+    img {
+        margin-bottom: 50px;
+    }
   }
   @media screen and (max-width: 640px) {
     header {
@@ -82,4 +90,7 @@ img {
     }
     .my_achievements { font-size: 1.5em;
         font-family: sans-serif;}
+    img {
+        margin-bottom: 35px;
+    }
   }
